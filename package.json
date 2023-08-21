@@ -3,7 +3,7 @@
   "private": true,
   "main": "dist-electron/main.js",
   "scripts": {
-    "build": "nuxt build",
+    "build": "nuxt build && electron-builder",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
