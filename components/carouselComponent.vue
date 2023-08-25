@@ -23,29 +23,15 @@
                             <div class="absolute rounded z-0 h-full w-full bg-cover opacity-90 bg-tertiary">
                             </div>
                             <div class="h-full rounded bg-zinc-900/70 backdrop-blur-sm w-full z-10 px-2">
-                                <div class="pb-2 w-full flex justify-start">
-                                    <span class="dsstat-value text-white">Ultimos Capitulos</span>
+                                <div class="w-full flex justify-start">
+                                    <span class="dsstat-value text-[1.8rem] text-white">Ultimos Capitulos</span>
                                 </div>
                                 <div class="flex justify-start items-center w-full mt-1 gap-8">
-                                    <div class="relative cursor-pointer h-36 w-[5.5rem] rounded bg-no-repeat bg-contain bg-[url('https://cdn.kobo.com/book-images/f0b48d44-abe9-4812-a421-51e29855143d/1200/1200/False/the-girl-i-like-forgot-her-glasses-06.jpg')]">
-                                        <div class="absolute h-8 w-12 rounded bg-primary/95 -top-1 -right-4 flex justify-center items-center">
-                                            <span class="font-Montserrat text-white font-medium">15</span>
+                                    <div class="relative h-24 w-16" v-for="item in 5">
+                                        <div class="-top-2 -right-3 rounded w-11 h-7 bg-primary absolute flex items-center justify-center select-none">
+                                            <span class="text-white font-Montserrat font-semibold">15</span>                                            
                                         </div>
-                                    </div>
-                                    <div class="relative cursor-pointer h-36 w-[5.5rem] rounded bg-no-repeat bg-contain bg-[url('https://cdn.kobo.com/book-images/f0b48d44-abe9-4812-a421-51e29855143d/1200/1200/False/the-girl-i-like-forgot-her-glasses-06.jpg')]">
-                                        <div class="absolute h-8 w-12 rounded bg-primary/95 -top-1 -right-4 flex justify-center items-center">
-                                            <span class="font-Montserrat text-white font-medium">14</span>
-                                        </div>
-                                    </div>
-                                    <div class="relative cursor-pointer h-36 w-[5.5rem] rounded bg-no-repeat bg-contain bg-[url('https://cdn.kobo.com/book-images/f0b48d44-abe9-4812-a421-51e29855143d/1200/1200/False/the-girl-i-like-forgot-her-glasses-06.jpg')]">
-                                        <div class="absolute h-8 w-12 rounded bg-primary/95 -top-1 -right-4 flex justify-center items-center">
-                                            <span class="font-Montserrat text-white font-medium">13</span>
-                                        </div>
-                                    </div>
-                                    <div class="relative cursor-pointer h-36 w-[5.5rem] rounded bg-no-repeat bg-contain bg-[url('https://cdn.kobo.com/book-images/f0b48d44-abe9-4812-a421-51e29855143d/1200/1200/False/the-girl-i-like-forgot-her-glasses-06.jpg')]">
-                                        <div class="absolute h-8 w-12 rounded bg-primary/95 -top-1 -right-4 flex justify-center items-center">
-                                            <span class="font-Montserrat text-white font-medium">12</span>
-                                        </div>
+                                        <img class="rounded" src="https://cdn.kobo.com/book-images/f0b48d44-abe9-4812-a421-51e29855143d/1200/1200/False/the-girl-i-like-forgot-her-glasses-06.jpg" alt="">                                        
                                     </div>
                                 </div>
                             </div>

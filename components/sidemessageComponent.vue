@@ -1,5 +1,5 @@
 <template>
-    <div :class="side_message ? 'md:w-[25.2%] lg:w-[13.7%]': 'lg:w-[3.67%]'" class="md:border-l h-full md:border-l-white/10 max-md:flex-1 min-w-[57px] flex flex-col items-center transition-all duration-200">
+    <div :class="side_message ? '': 'lg:w-[3.67%]'" class="md:border-l h-full md:border-l-white/10 max-md:flex-1 min-w-[57px] flex flex-col items-center transition-all duration-200">
         <div class="relative h-full bg-secondary w-full">
             <div @click="side_message = !side_message" :class="side_message ? 'scale-125 shadow-success/80 shadow-[0px_0px_2px]' : 'border border-white/10'" class="absolute -top-3 -left-3 h-5 w-5 rounded bg-tertiary cursor-pointer active:scale-95 transition-all z-50">
                 <svg v-if="!side_message" class="stroke-ice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m14 7l-5 5l5 5"/></svg>
