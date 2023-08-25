@@ -1,5 +1,5 @@
 <template>
-    <div class="h-56 w-full">
+    <div class="w-full">
         <div class="w-full flex items-center justify-between">
             <span class="text-white font-semibold font-Montserrat">Populares</span>
             <span class="text-ice font-Montserrat">ver mais</span>
