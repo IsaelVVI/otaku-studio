@@ -9,14 +9,14 @@ export default defineNuxtConfig({
     },
   },
   css: ["~/assets/css/main.css"],
-  electron: {
-    build: [
-      {
-        // Main-Process entry file of the Electron App.
-        entry: "electron/main.ts",
-      },
-    ],
-    renderer: {},
-    disableDefaultOptions: true
-  },
+  // electron: {
+  //   build: [
+  //     {
+  //       // Main-Process entry file of the Electron App.
+  //       entry: "electron/main.ts",
+  //     },
+  //   ],
+  //   renderer: {},
+  //   disableDefaultOptions: true
+  // },
 });
